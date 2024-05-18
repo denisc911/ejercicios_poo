@@ -29,7 +29,7 @@ class Person {
     }
   
     register() {
-      console.log(`El estudiante ${this.name} es del ${this.course} y está en el ${this.group}.`);
+      console.log(`El estudiante ${this.name} está cursando ${this.course} nivel ${this.group}.`);
     }
   }
 
@@ -50,12 +50,12 @@ class Person {
     }
   
     assign() {
-      console.log(`El profe ${this.name} esta a cargo del curso de  ${this.asignatura} de nivel ${this.level}.`);
+      console.log(`El profe ${this.name} esta a cargo del curso de  ${this.asignatura} nivel ${this.level}.`);
     }
   }
   
 
-  const teacher = new Teacher('Doña Pepa Pig', 40, 'TIA', 'Busqueda de trufas', 'Advanced');
+  const teacher = new Teacher('Doña Pepa Pig', 40,'TIA','Busqueda de trufas', 'Profesional');
   teacher.obtDetails();
   teacher.assign();
   
